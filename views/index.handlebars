@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="row">
+    <img src="/assets/image/burger.png" height="300" width="300">
+  </div>
+  <h1>EAT A Burger!!</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <ol class="list-group col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      {{#each burgers}}
+        {{#unless devoured}}
+          <li class="list-group-item">
+            {{burger_name}}
+            <button class="change-devour btn btn-warning" data-id="{{id}}" data-newdevour="{{devour}}">DEVOUR!</button>
+          </li>    
+        {{/unless}}
+      {{/each}}
+    </ol>
+
+    <ol class="list-group col-xs-6 col-sm-6 col-md-6 col-lg-6" id="eaten">
+      {{#each burgers}}
+        {{#if devoured}}
+          <li class="list-group-item disabled">
+            {{burger_name}}
+          </li>  
+        {{/if}}
+      {{/each}}
+    </ol>
+  </div>
+</div>
+
+<div class="container text-center">
+  <hr>
+  <form class="create-form">
+    <div class="row">
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <input type="textarea" id="newBurger" class="form-control input-lg" rows="2" placeholder="   Enter a Burger you want to eat, then Click the Submit Button">
+      </div>
+    </div>
+    <br>
+    <button class="form-group btn btn-primary btn-lg" id="submitBut" type="submit"><i class="fa fa-cutlery"></i>Submit</button>
+  </form>
+  <br>
+</div>

@@ -1,0 +1,51 @@
+body {
+	background-color: #ffcc66;
+}
+
+h1 {
+	text-align: center;
+	margin: 0px 10px 10px 10px;
+	font-family: 'Krona One', sans-serif;
+	font-family: 'Coiny', cursive;
+	font-size: 75px;
+}
+
+img {
+	margin: 0 auto !important;
+	display: block !important;
+}
+
+.list-group-item {
+	padding: 20px 15px 30px 15px !important;
+	font-family: 'Coiny', cursive;
+	font-family: 'Krona One', sans-serif;
+	text-align: center;
+	border-radius: 15px !important;
+	margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.change-devour {
+	float: right;
+}
+
+#submitBut {
+	padding: 20px 60px;
+}
+
+#eaten {
+	float: right !important;
+}

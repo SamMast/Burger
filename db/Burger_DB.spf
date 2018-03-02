@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>gee2hezmjlchkjw0</string>
+			<key>host</key>
+			<string>p1us8ottbqwio8hv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com</string>
+			<key>name</key>
+			<string>p1us8ottbqwio8hv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com</string>
+			<key>port</key>
+			<integer>3306</integer>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>xu9s5nokv6urmxt1</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK0HCBUWFxgZHSQoLDA0VSRudWxs0wkK
+			CwwQFFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzow0OD4ACgAOA
+			BKMREhOABYAGgAiADFR0eXBlVHJvd3NUa2V5c18QJlNlbGVjdGlv
+			bkRldGFpbFR5cGVQcmltYXJ5S2V5ZWREZXRhaWxz0wkKCxobHKCg
+			gAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxl
+			RGljdGlvbmFyeaMgIiNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00goL
+			JSehJoAJgAvSCykqK1lOUy5zdHJpbmeAClJpZNIeHy0uXxAPTlNN
+			dXRhYmxlU3RyaW5noy0vI1hOU1N0cmluZ9IeHzEyXk5TTXV0YWJs
+			ZUFycmF5ozEzI1dOU0FycmF50h4fIjWiIiNfEA9OU0tleWVkQXJj
+			aGl2ZXLRODlUZGF0YYABAAgAEQAaACMALQAyADcARQBLAFIAWgBl
+			AGwAcAByAHQAdgB6AHwAfgCAAIIAhwCMAJEAugDBAMIAwwDFAMoA
+			1QDeAPQA+AEFAQ4BEwEVARcBGQEeASgBKgEtATIBRAFIAVEBVgFl
+			AWkBcQF2AXkBiwGOAZMAAAAAAAACAQAAAAAAAAA6AAAAAAAAAAAA
+			AAAAAAABlQ==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {985, 699}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>CREATE TABLE burgers
+(
+	id int AUTO_INCREMENT NOT NULL ,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	createdAt TIMESTAMP NOT NULL,
+	PRIMARY KEY (id)
+);
+
+SELECT * FROM burgers</string>
+			<key>table</key>
+			<string>burgers</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>145</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>SELECT * FROM burgers</string>
+		<string>CREATE TABLE burgers
+(
+	id int AUTO_INCREMENT NOT NULL ,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	createdAt TIMESTAMP NOT NULL,
+	PRIMARY KEY (id)
+)</string>
+		<string>CREATE TABLE burgers
+(
+	id int AUTO_INCREMENT NOT NULL ,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	createdAt TIMESTAMP NOT NULL
+	PRIMARY KEY (id)
+)</string>
+		<string>DROP DATABASE IF EXISTS `starwars`;
+CREATE DATABASE  `starwars`;
+USE `starwars`</string>
+		<string>SELECT * FROM characters</string>
+		<string>DROP DATABASE IF EXISTS `starwars`</string>
+		<string>------------------------------------------------------------
+DROP DATABASE IF EXISTS `starwars`</string>
+		<string>CREATE DATABASE  `starwars`;
+USE `starwars`</string>
+		<string>DROP DATABASE IF EXISTS `starwars`;
+CREATE DATABASE  `starwars`;
+USE `starwars`;
+/* Create a table for all your star wars characters */
+CREATE TABLE `allcharacters` (
+	`id` Int( 11 ) AUTO_INCREMENT NOT NULL,
+	`routeName` VARCHAR( 255) NOT NULL,
+	`name` VARCHAR( 255 ) NOT NULL,
+	`role` VARCHAR( 255 ) NOT NULL,
+	`age` Int(11) NOT NULL,
+	`forcePoints` Int(11) NOT NULL,
+
+	PRIMARY KEY ( `id` ) );
+/* Set ID as primary key */
+	
+SELECT * FROM allcharacters</string>
+		<string>CREATE DATABASE  `starwars`</string>
+		<string>CREATE DATABASE  `starwars`;
+USE `starwars`;
+/* Create a table for all your star wars characters */
+CREATE TABLE `allcharacters` (
+	`id` Int( 11 ) AUTO_INCREMENT NOT NULL,
+	`routeName` VARCHAR( 255) NOT NULL,
+	`name` VARCHAR( 255 ) NOT NULL,
+	`role` VARCHAR( 255 ) NOT NULL,
+	`age` Int(11) NOT NULL,
+	`forcePoints` Int(11) NOT NULL,
+
+	PRIMARY KEY ( `id` ) );
+/* Set ID as primary key */
+	
+SELECT * FROM burgers</string>
+		<string>DROP DATABASE IF EXISTS burger_db;
+CREATE DATABASE burger_db;
+USE burger_db;
+CREATE TABLE burgers
+(
+	id int NOT NULL AUTO_INCREMENT,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
+);
+INSERT INTO burgers (burger_name) VALUES ('Big Mac');
+INSERT INTO burgers (burger_name) VALUES ('Double Cheeseburger');
+INSERT INTO burgers (burger_name) VALUES ('Bacon Burger');
+INSERT INTO burgers (burger_name) VALUES ('Veggie Burger');
+SELECT * FROM burgers</string>
+		<string>### Schema
+DROP DATABASE IF EXISTS burger_db;
+CREATE DATABASE burger_db;
+USE burger_db;
+CREATE TABLE burgers
+(
+	id int NOT NULL AUTO_INCREMENT,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
+);
+INSERT INTO burgers (burger_name) VALUES ('Big Mac');
+INSERT INTO burgers (burger_nam) VALUES ('Double Cheeseburger')</string>
+		<string>DROP DATABASE IF EXISTS burger_db;
+CREATE DATABASE burger_db;
+USE burger_db;
+CREATE TABLE burgers
+(
+	id int NOT NULL AUTO_INCREMENT,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
+);
+INSERT INTO burgers (name) VALUES ('Big Mac')</string>
+		<string>### Schema
+DROP DATABASE IF EXISTS burger_db;
+CREATE DATABASE burger_db;
+USE burger_db;
+CREATE TABLE burgers
+(
+	id int NOT NULL AUTO_INCREMENT,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
+);
+INSERT INTO burgers (name) VALUES ('Big Mac')</string>
+		<string>SELECT * FROM cats</string>
+		<string>DROP DATABASE IF EXISTS cat_db;
+CREATE DATABASE cat_db;
+USE cat_db;
+CREATE TABLE cats
+(
+	id int NOT NULL AUTO_INCREMENT,
+	name varchar(255) NOT NULL,
+	sleepy BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
+);
+INSERT INTO cats (name) VALUES ('Meeses');
+INSERT INTO cats (name) VALUES ('Bobbi');
+INSERT INTO cats (name, sleepy) VALUES ('Sylvester', true);
+INSERT INTO cats (name, sleepy) VALUES ('Marilyn Manson', true);
+INSERT INTO cats (name, sleepy) VALUES ('Joe Biden', true);
+INSERT INTO cats (name) VALUES ('Owens');
+SELECT * FROM cats</string>
+		<string>DROP DATABASE IF EXISTS cats_db;
+CREATE DATABASE cat_db</string>
+		<string>DROP DATABASE IF EXISTS cats_db;
+CREATE DATABASE cat_db;
+USE cat_db;
+CREATE TABLE cats
+(
+	id int NOT NULL AUTO_INCREMENT,
+	name varchar(255) NOT NULL,
+	sleepy BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
+);
+INSERT INTO cats (name) VALUES ('Meeses');
+INSERT INTO cats (name) VALUES ('Bobbi');
+INSERT INTO cats (name, sleepy) VALUES ('Sylvester', true);
+INSERT INTO cats (name, sleepy) VALUES ('Marilyn Manson', true);
+INSERT INTO cats (name, sleepy) VALUES ('Joe Biden', true);
+INSERT INTO cats (name) VALUES ('Owens');
+SELECT * FROM cats</string>
+		<string>SELECT * FROM parties</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.17-log</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
